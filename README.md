@@ -40,5 +40,5 @@ All other files that you include in your main must be placed in :
 
 We are 2 IMAC students (French Engineering School of Multimedia) in 2nd year (2018) :
 
-Flavie LUCAS (https://github.com/Judgingu)
-Marc BLACTOT (https://github.com/Hugu3s)
+* Flavie LUCAS (https://github.com/Judgingu)
+* Marc BLACTOT (https://github.com/Hugu3s)
