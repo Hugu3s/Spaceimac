@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2017.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\TP4_torus.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\TP4_torus.dir/objects.a @CMakeFiles\TP4_torus.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\TP4_torus.dir/objects.a -Wl,--no-whole-archive  -o TP4_torus.exe -Wl,--out-implib,libTP4_torus.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TP4_torus.dir\linklibs.rsp

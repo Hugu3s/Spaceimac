@@ -1,0 +1,1794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ImacGL"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CMake\;CMake Files\glimac\;CMake Files\TP1\;CMake Files\TP2\;CMake Files\TP3\;CMake Files\TP_Spaceimac\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glimac">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac/libglimac.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 glimac"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glimac/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac/libglimac.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 glimac/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_SDLtemplate">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/TP1_SDLtemplate.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_SDLtemplate"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_SDLtemplate/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/TP1_SDLtemplate.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_SDLtemplate/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo1_triangle_blanc">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/TP1_exo1_triangle_blanc.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo1_triangle_blanc"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo1_triangle_blanc/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/TP1_exo1_triangle_blanc.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo1_triangle_blanc/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo5_disque">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/TP1_exo5_disque.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo5_disque"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo5_disque/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/TP1_exo5_disque.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo5_disque/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo4_quads">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/TP1_exo4_quads.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo4_quads"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo4_quads/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/TP1_exo4_quads.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo4_quads/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo2_triangle_couleurs">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/TP1_exo2_triangle_couleurs.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo2_triangle_couleurs"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo2_triangle_couleurs/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/TP1_exo2_triangle_couleurs.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo2_triangle_couleurs/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo3_structure_vertex">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/TP1_exo3_structure_vertex.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo3_structure_vertex"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo3_structure_vertex/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/TP1_exo3_structure_vertex.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo3_structure_vertex/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo6_disque">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/TP1_exo6_disque.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo6_disque"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo6_disque/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/TP1_exo6_disque.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo6_disque/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo6_quads">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/TP1_exo6_quads.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo6_quads"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo6_quads/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/TP1_exo6_quads.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo6_quads/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP2_SDLtemplate">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/TP2_SDLtemplate.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 TP2_SDLtemplate"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP2_SDLtemplate/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/TP2_SDLtemplate.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 TP2_SDLtemplate/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP2_exo3_particule">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/TP2_exo3_particule.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 TP2_exo3_particule"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP2_exo3_particule/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/TP2_exo3_particule.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 TP2_exo3_particule/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP2_exo1_triangle_couleur">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/TP2_exo1_triangle_couleur.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 TP2_exo1_triangle_couleur"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP2_exo1_triangle_couleur/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/TP2_exo1_triangle_couleur.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 TP2_exo1_triangle_couleur/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP2_exo6_maison">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/TP2_exo6_maison.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 TP2_exo6_maison"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP2_exo6_maison/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/TP2_exo6_maison.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 TP2_exo6_maison/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP2_exo5_triangle_texture">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/TP2_exo5_triangle_texture.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 TP2_exo5_triangle_texture"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP2_exo5_triangle_texture/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/TP2_exo5_triangle_texture.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 TP2_exo5_triangle_texture/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP2_exo2_triangle_couleur_argv">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/TP2_exo2_triangle_couleur_argv.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 TP2_exo2_triangle_couleur_argv"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP2_exo2_triangle_couleur_argv/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/TP2_exo2_triangle_couleur_argv.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 TP2_exo2_triangle_couleur_argv/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP2_exo4_mandelbrot">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/TP2_exo4_mandelbrot.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 TP2_exo4_mandelbrot"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP2_exo4_mandelbrot/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/TP2_exo4_mandelbrot.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 TP2_exo4_mandelbrot/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP3_exo2_lune">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/TP3_exo2_lune.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 TP3_exo2_lune"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP3_exo2_lune/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/TP3_exo2_lune.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 TP3_exo2_lune/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP3_SDLtemplate">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/TP3_SDLtemplate.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 TP3_SDLtemplate"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP3_SDLtemplate/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/TP3_SDLtemplate.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 TP3_SDLtemplate/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP3_exo7_camTrackBallLight">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/TP3_exo7_camTrackBallLight.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 TP3_exo7_camTrackBallLight"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP3_exo7_camTrackBallLight/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/TP3_exo7_camTrackBallLight.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 TP3_exo7_camTrackBallLight/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP3_exo1_sphere">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/TP3_exo1_sphere.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 TP3_exo1_sphere"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP3_exo1_sphere/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/TP3_exo1_sphere.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 TP3_exo1_sphere/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP3_exo5_camTrackBall">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/TP3_exo5_camTrackBall.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 TP3_exo5_camTrackBall"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP3_exo5_camTrackBall/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/TP3_exo5_camTrackBall.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 TP3_exo5_camTrackBall/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP3_exo3_lune_textures">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/TP3_exo3_lune_textures.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 TP3_exo3_lune_textures"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP3_exo3_lune_textures/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/TP3_exo3_lune_textures.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 TP3_exo3_lune_textures/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP3_exo4_lune_multitexture">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/TP3_exo4_lune_multitexture.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 TP3_exo4_lune_multitexture"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP3_exo4_lune_multitexture/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/TP3_exo4_lune_multitexture.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 TP3_exo4_lune_multitexture/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP3_exo6_freeflyCamera">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/TP3_exo6_freeflyCamera.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 TP3_exo6_freeflyCamera"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP3_exo6_freeflyCamera/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/TP3_exo6_freeflyCamera.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 TP3_exo6_freeflyCamera/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP_Spaceimac_main">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac/TP_Spaceimac_main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac/Makefile&quot;  VERBOSE=1 TP_Spaceimac_main"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP_Spaceimac_main/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac/TP_Spaceimac_main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac/Makefile&quot;  VERBOSE=1 TP_Spaceimac_main/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP1/SDLtemplate.cpp">
+			<Option target="TP1_SDLtemplate"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP1/Shaders/triangle.fs.glsl">
+			<Option target="TP1_SDLtemplate"/>
+			<Option target="TP1_exo1_triangle_blanc"/>
+			<Option target="TP1_exo5_disque"/>
+			<Option target="TP1_exo4_quads"/>
+			<Option target="TP1_exo2_triangle_couleurs"/>
+			<Option target="TP1_exo3_structure_vertex"/>
+			<Option target="TP1_exo6_disque"/>
+			<Option target="TP1_exo6_quads"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP1/Shaders/triangle.vs.glsl">
+			<Option target="TP1_SDLtemplate"/>
+			<Option target="TP1_exo1_triangle_blanc"/>
+			<Option target="TP1_exo5_disque"/>
+			<Option target="TP1_exo4_quads"/>
+			<Option target="TP1_exo2_triangle_couleurs"/>
+			<Option target="TP1_exo3_structure_vertex"/>
+			<Option target="TP1_exo6_disque"/>
+			<Option target="TP1_exo6_quads"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP1/cmake-build-debug/shaders/triangle.fs.glsl">
+			<Option target="TP1_SDLtemplate"/>
+			<Option target="TP1_exo1_triangle_blanc"/>
+			<Option target="TP1_exo5_disque"/>
+			<Option target="TP1_exo4_quads"/>
+			<Option target="TP1_exo2_triangle_couleurs"/>
+			<Option target="TP1_exo3_structure_vertex"/>
+			<Option target="TP1_exo6_disque"/>
+			<Option target="TP1_exo6_quads"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP1/cmake-build-debug/shaders/triangle.vs.glsl">
+			<Option target="TP1_SDLtemplate"/>
+			<Option target="TP1_exo1_triangle_blanc"/>
+			<Option target="TP1_exo5_disque"/>
+			<Option target="TP1_exo4_quads"/>
+			<Option target="TP1_exo2_triangle_couleurs"/>
+			<Option target="TP1_exo3_structure_vertex"/>
+			<Option target="TP1_exo6_disque"/>
+			<Option target="TP1_exo6_quads"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP1/exo1_triangle_blanc.cpp">
+			<Option target="TP1_exo1_triangle_blanc"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP1/exo2_triangle_couleurs.cpp">
+			<Option target="TP1_exo2_triangle_couleurs"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP1/exo3_structure_vertex.cpp">
+			<Option target="TP1_exo3_structure_vertex"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP1/exo4_quads.cpp">
+			<Option target="TP1_exo4_quads"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP1/exo5_disque.cpp">
+			<Option target="TP1_exo5_disque"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP1/exo6_disque.cpp">
+			<Option target="TP1_exo6_disque"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP1/exo6_quads.cpp">
+			<Option target="TP1_exo6_quads"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP2/SDLtemplate.cpp">
+			<Option target="TP2_SDLtemplate"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP2/exo1_triangle_couleur.cpp">
+			<Option target="TP2_exo1_triangle_couleur"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP2/exo2_triangle_couleur_argv.cpp">
+			<Option target="TP2_exo2_triangle_couleur_argv"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP2/exo3_particule.cpp">
+			<Option target="TP2_exo3_particule"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP2/exo4_mandelbrot.cpp">
+			<Option target="TP2_exo4_mandelbrot"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP2/exo5_triangle_texture.cpp">
+			<Option target="TP2_exo5_triangle_texture"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP2/exo6_maison.cpp">
+			<Option target="TP2_exo6_maison"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP2/shaders/color2D.fs.glsl">
+			<Option target="TP2_SDLtemplate"/>
+			<Option target="TP2_exo3_particule"/>
+			<Option target="TP2_exo1_triangle_couleur"/>
+			<Option target="TP2_exo6_maison"/>
+			<Option target="TP2_exo5_triangle_texture"/>
+			<Option target="TP2_exo2_triangle_couleur_argv"/>
+			<Option target="TP2_exo4_mandelbrot"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP2/shaders/color2D.vs.glsl">
+			<Option target="TP2_SDLtemplate"/>
+			<Option target="TP2_exo3_particule"/>
+			<Option target="TP2_exo1_triangle_couleur"/>
+			<Option target="TP2_exo6_maison"/>
+			<Option target="TP2_exo5_triangle_texture"/>
+			<Option target="TP2_exo2_triangle_couleur_argv"/>
+			<Option target="TP2_exo4_mandelbrot"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP2/shaders/grey2D.fs.glsl">
+			<Option target="TP2_SDLtemplate"/>
+			<Option target="TP2_exo3_particule"/>
+			<Option target="TP2_exo1_triangle_couleur"/>
+			<Option target="TP2_exo6_maison"/>
+			<Option target="TP2_exo5_triangle_texture"/>
+			<Option target="TP2_exo2_triangle_couleur_argv"/>
+			<Option target="TP2_exo4_mandelbrot"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP2/shaders/mandelbrot.fs.glsl">
+			<Option target="TP2_SDLtemplate"/>
+			<Option target="TP2_exo3_particule"/>
+			<Option target="TP2_exo1_triangle_couleur"/>
+			<Option target="TP2_exo6_maison"/>
+			<Option target="TP2_exo5_triangle_texture"/>
+			<Option target="TP2_exo2_triangle_couleur_argv"/>
+			<Option target="TP2_exo4_mandelbrot"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP2/shaders/mandelbrot.vs.glsl">
+			<Option target="TP2_SDLtemplate"/>
+			<Option target="TP2_exo3_particule"/>
+			<Option target="TP2_exo1_triangle_couleur"/>
+			<Option target="TP2_exo6_maison"/>
+			<Option target="TP2_exo5_triangle_texture"/>
+			<Option target="TP2_exo2_triangle_couleur_argv"/>
+			<Option target="TP2_exo4_mandelbrot"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP2/shaders/particule.fs.glsl">
+			<Option target="TP2_SDLtemplate"/>
+			<Option target="TP2_exo3_particule"/>
+			<Option target="TP2_exo1_triangle_couleur"/>
+			<Option target="TP2_exo6_maison"/>
+			<Option target="TP2_exo5_triangle_texture"/>
+			<Option target="TP2_exo2_triangle_couleur_argv"/>
+			<Option target="TP2_exo4_mandelbrot"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP2/shaders/particule.vs.glsl">
+			<Option target="TP2_SDLtemplate"/>
+			<Option target="TP2_exo3_particule"/>
+			<Option target="TP2_exo1_triangle_couleur"/>
+			<Option target="TP2_exo6_maison"/>
+			<Option target="TP2_exo5_triangle_texture"/>
+			<Option target="TP2_exo2_triangle_couleur_argv"/>
+			<Option target="TP2_exo4_mandelbrot"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP2/shaders/tex2D.fs.glsl">
+			<Option target="TP2_SDLtemplate"/>
+			<Option target="TP2_exo3_particule"/>
+			<Option target="TP2_exo1_triangle_couleur"/>
+			<Option target="TP2_exo6_maison"/>
+			<Option target="TP2_exo5_triangle_texture"/>
+			<Option target="TP2_exo2_triangle_couleur_argv"/>
+			<Option target="TP2_exo4_mandelbrot"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP2/shaders/tex2D.vs.glsl">
+			<Option target="TP2_SDLtemplate"/>
+			<Option target="TP2_exo3_particule"/>
+			<Option target="TP2_exo1_triangle_couleur"/>
+			<Option target="TP2_exo6_maison"/>
+			<Option target="TP2_exo5_triangle_texture"/>
+			<Option target="TP2_exo2_triangle_couleur_argv"/>
+			<Option target="TP2_exo4_mandelbrot"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP2/shaders/tex2Dtexture.fs.glsl">
+			<Option target="TP2_SDLtemplate"/>
+			<Option target="TP2_exo3_particule"/>
+			<Option target="TP2_exo1_triangle_couleur"/>
+			<Option target="TP2_exo6_maison"/>
+			<Option target="TP2_exo5_triangle_texture"/>
+			<Option target="TP2_exo2_triangle_couleur_argv"/>
+			<Option target="TP2_exo4_mandelbrot"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP2/shaders/tex2Dtexture.vs.glsl">
+			<Option target="TP2_SDLtemplate"/>
+			<Option target="TP2_exo3_particule"/>
+			<Option target="TP2_exo1_triangle_couleur"/>
+			<Option target="TP2_exo6_maison"/>
+			<Option target="TP2_exo5_triangle_texture"/>
+			<Option target="TP2_exo2_triangle_couleur_argv"/>
+			<Option target="TP2_exo4_mandelbrot"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP3/SDLtemplate.cpp">
+			<Option target="TP3_SDLtemplate"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP3/exo1_sphere.cpp">
+			<Option target="TP3_exo1_sphere"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP3/exo2_lune.cpp">
+			<Option target="TP3_exo2_lune"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP3/exo3_lune_textures.cpp">
+			<Option target="TP3_exo3_lune_textures"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP3/exo4_lune_multitexture.cpp">
+			<Option target="TP3_exo4_lune_multitexture"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP3/exo5_camTrackBall.cpp">
+			<Option target="TP3_exo5_camTrackBall"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP3/exo6_freeflyCamera.cpp">
+			<Option target="TP3_exo6_freeflyCamera"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP3/exo7_camTrackBallLight.cpp">
+			<Option target="TP3_exo7_camTrackBallLight"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP3/shaders/3D.vs.glsl">
+			<Option target="TP3_exo2_lune"/>
+			<Option target="TP3_SDLtemplate"/>
+			<Option target="TP3_exo7_camTrackBallLight"/>
+			<Option target="TP3_exo1_sphere"/>
+			<Option target="TP3_exo5_camTrackBall"/>
+			<Option target="TP3_exo3_lune_textures"/>
+			<Option target="TP3_exo4_lune_multitexture"/>
+			<Option target="TP3_exo6_freeflyCamera"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP3/shaders/3DFreeFly.vs.glsl">
+			<Option target="TP3_exo2_lune"/>
+			<Option target="TP3_SDLtemplate"/>
+			<Option target="TP3_exo7_camTrackBallLight"/>
+			<Option target="TP3_exo1_sphere"/>
+			<Option target="TP3_exo5_camTrackBall"/>
+			<Option target="TP3_exo3_lune_textures"/>
+			<Option target="TP3_exo4_lune_multitexture"/>
+			<Option target="TP3_exo6_freeflyCamera"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP3/shaders/directionallight.fs.glsl">
+			<Option target="TP3_exo2_lune"/>
+			<Option target="TP3_SDLtemplate"/>
+			<Option target="TP3_exo7_camTrackBallLight"/>
+			<Option target="TP3_exo1_sphere"/>
+			<Option target="TP3_exo5_camTrackBall"/>
+			<Option target="TP3_exo3_lune_textures"/>
+			<Option target="TP3_exo4_lune_multitexture"/>
+			<Option target="TP3_exo6_freeflyCamera"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP3/shaders/multiTex3D.fs.glsl">
+			<Option target="TP3_exo2_lune"/>
+			<Option target="TP3_SDLtemplate"/>
+			<Option target="TP3_exo7_camTrackBallLight"/>
+			<Option target="TP3_exo1_sphere"/>
+			<Option target="TP3_exo5_camTrackBall"/>
+			<Option target="TP3_exo3_lune_textures"/>
+			<Option target="TP3_exo4_lune_multitexture"/>
+			<Option target="TP3_exo6_freeflyCamera"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP3/shaders/multiTex3DFreeFly.fs.glsl">
+			<Option target="TP3_exo2_lune"/>
+			<Option target="TP3_SDLtemplate"/>
+			<Option target="TP3_exo7_camTrackBallLight"/>
+			<Option target="TP3_exo1_sphere"/>
+			<Option target="TP3_exo5_camTrackBall"/>
+			<Option target="TP3_exo3_lune_textures"/>
+			<Option target="TP3_exo4_lune_multitexture"/>
+			<Option target="TP3_exo6_freeflyCamera"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP3/shaders/normals.fs.glsl">
+			<Option target="TP3_exo2_lune"/>
+			<Option target="TP3_SDLtemplate"/>
+			<Option target="TP3_exo7_camTrackBallLight"/>
+			<Option target="TP3_exo1_sphere"/>
+			<Option target="TP3_exo5_camTrackBall"/>
+			<Option target="TP3_exo3_lune_textures"/>
+			<Option target="TP3_exo4_lune_multitexture"/>
+			<Option target="TP3_exo6_freeflyCamera"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP3/shaders/tex3D.fs.glsl">
+			<Option target="TP3_exo2_lune"/>
+			<Option target="TP3_SDLtemplate"/>
+			<Option target="TP3_exo7_camTrackBallLight"/>
+			<Option target="TP3_exo1_sphere"/>
+			<Option target="TP3_exo5_camTrackBall"/>
+			<Option target="TP3_exo3_lune_textures"/>
+			<Option target="TP3_exo4_lune_multitexture"/>
+			<Option target="TP3_exo6_freeflyCamera"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP3/shaders/tex3D2.fs.glsl">
+			<Option target="TP3_exo2_lune"/>
+			<Option target="TP3_SDLtemplate"/>
+			<Option target="TP3_exo7_camTrackBallLight"/>
+			<Option target="TP3_exo1_sphere"/>
+			<Option target="TP3_exo5_camTrackBall"/>
+			<Option target="TP3_exo3_lune_textures"/>
+			<Option target="TP3_exo4_lune_multitexture"/>
+			<Option target="TP3_exo6_freeflyCamera"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP3/shaders/tex3DFreeFly.fs.glsl">
+			<Option target="TP3_exo2_lune"/>
+			<Option target="TP3_SDLtemplate"/>
+			<Option target="TP3_exo7_camTrackBallLight"/>
+			<Option target="TP3_exo1_sphere"/>
+			<Option target="TP3_exo5_camTrackBall"/>
+			<Option target="TP3_exo3_lune_textures"/>
+			<Option target="TP3_exo4_lune_multitexture"/>
+			<Option target="TP3_exo6_freeflyCamera"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/main.cpp">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/shaders/3D.vs.glsl">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/shaders/3DFreeFly.vs.glsl">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/shaders/directionallight.fs.glsl">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/shaders/fshader.glsl">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/shaders/multiTex3D.fs.glsl">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/shaders/multiTex3DFreeFly.fs.glsl">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/shaders/normals.fs.glsl">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/shaders/tex3D.fs.glsl">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/shaders/tex3D2.fs.glsl">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/shaders/tex3DFreeFly.fs.glsl">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/shaders/vertexsharder.glsl">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/BBox.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/Cone.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/FilePath.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/FreeflyCamera.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/Geometry.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/Image.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/Plane.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/Program.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/SDLWindowManager.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/Shader.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/Sphere.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/TrackballCamera.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/common.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/glm.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/project/Astre.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/project/GameManager.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/project/Gaseous.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/project/Planet.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/project/RenderManager.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/project/Satellite.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/project/Sun.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/project/Telluric.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/project/Texte.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/project/Texture.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/project/Time.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/Cone.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/FreeflyCamera.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/Geometry.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/Image.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/Plane.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/Program.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/SDLWindowManager.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/SDLWindowManager.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/Shader.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/Sphere.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/TrackballCamera.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/project/Astre.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/project/GameManager.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/project/Gaseous.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/project/Planet.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/project/RenderManager.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/project/Satellite.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/project/Sun.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/project/Telluric.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/project/Texte.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/project/Texture.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/project/Time.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/tiny_obj_loader.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/tiny_obj_loader.h">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/CMake/FindGLEW.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\glimac\"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\TP1\"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\TP2\"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\TP3\"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\TP_Spaceimac\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
