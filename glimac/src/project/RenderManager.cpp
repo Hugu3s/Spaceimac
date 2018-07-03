@@ -40,12 +40,12 @@ void RenderManager::setWindowManager(SDLWindowManager *windowManager) {
 
 //constructor
 RenderManager::RenderManager() {
-    m_SkyboxTexture = new Skybox("..\\..\\asset\\textures\\Texture\\Sun.jpg", // En haut
-                                  "...\\..\\asset\\textures\\Texture\\Sun.jpg", // En bas
-                                  "..\\..\\asset\\textures\\Texture\\Sun.jpg", // Au fond
-                                  "..\\..\\asset\\textures\\Texture\\Sun.jpg", // Derrière
-                                  "..\\..\\asset\\textures\\Texture\\Sun.jpg", // A gauche
-                                  "..\\..\\asset\\textures\\Texture\\Sun.jpg" // A droite
+    m_SkyboxTexture = new Skybox("../../asset/textures/Texture/Skybox.jpg", // En haut
+                                  ".../../asset/textures/Texture/Skybox.jpg", // En bas
+                                  "../../asset/textures/Texture/Skybox.jpg", // Au fond
+                                  "../../asset/textures/Texture/Skybox.jpg", // Derrière
+                                  "../../asset/textures/Texture/Skybox.jpg", // A gauche
+                                  "../../asset/textures/Texture/Skybox.jpg" // A droite
     );
 
 }
@@ -54,16 +54,16 @@ RenderManager::RenderManager() {
 void RenderManager::createTexturesPlanets() {
 
     //texture creation
-    std::unique_ptr<Image> SunMap=loadImage("..\\..\\asset\\textures\\Texture\\Sun.png");
-    std::unique_ptr<Image> EarthMap=loadImage("..\\..\\asset\\textures\\Texture\\Earth.png");
-    std::unique_ptr<Image> MercuryMap=loadImage("..\\..\\asset\\textures\\Texture\\Mercury.png");
-    std::unique_ptr<Image> VenusMap=loadImage("..\\..\\asset\\textures\\Texture\\Venus.png");
-    std::unique_ptr<Image> MarsMap=loadImage("..\\..\\asset\\textures\\Texture\\Mars.png");
-    std::unique_ptr<Image> JupiterMap=loadImage("..\\..\\asset\\textures\\Texture\\Jupiter.png");
-    std::unique_ptr<Image> SaturnMap=loadImage("..\\..\\asset\\textures\\Texture\\Saturn.png");
-    std::unique_ptr<Image> UranusMap=loadImage("..\\..\\asset\\textures\\Texture\\Uranus.png");
-    std::unique_ptr<Image> NeptuneMap=loadImage("..\\..\\asset\\textures\\Texture\\Neptune.png");
-    std::unique_ptr<Image> PlutoMap=loadImage("..\\..\\asset\\textures\\Texture\\Pluto.png");
+    std::unique_ptr<Image> SunMap=loadImage("../../asset/textures/Texture/Sun.png");
+    std::unique_ptr<Image> EarthMap=loadImage("../../asset/textures/Texture/Earth.png");
+    std::unique_ptr<Image> MercuryMap=loadImage("../../asset/textures/Texture/Mercury.png");
+    std::unique_ptr<Image> VenusMap=loadImage("../../asset/textures/Texture/Venus.png");
+    std::unique_ptr<Image> MarsMap=loadImage("../../asset/textures/Texture/Mars.png");
+    std::unique_ptr<Image> JupiterMap=loadImage("../../asset/textures/Texture/Jupiter.png");
+    std::unique_ptr<Image> SaturnMap=loadImage("../../asset/textures/Texture/Saturn.png");
+    std::unique_ptr<Image> UranusMap=loadImage("../../asset/textures/Texture/Uranus.png");
+    std::unique_ptr<Image> NeptuneMap=loadImage("../../asset/textures/Texture/Neptune.png");
+    std::unique_ptr<Image> PlutoMap=loadImage("../../asset/textures/Texture/Pluto.png");
 
 
 
@@ -170,7 +170,7 @@ void RenderManager::createTexturesPlanets() {
 
 void RenderManager::createtextureSatellites() {
 
-    std::unique_ptr<Image> MoonMap=loadImage("..\\..\\asset\\textures\\MoonMap.jpg");
+    std::unique_ptr<Image> MoonMap=loadImage("../../asset/textures/MoonMap.jpg");
 
 
     GLuint textureMoon;
@@ -192,7 +192,7 @@ void RenderManager::createtextureSatellites() {
     }
 
 
-    std::unique_ptr<Image> DeimosMap=loadImage("..\\..\\asset\\textures\\Deimos.jpg");
+    std::unique_ptr<Image> DeimosMap=loadImage("../../asset/textures/Deimos.jpg");
 
     GLuint textureDeimos;
 
@@ -211,7 +211,7 @@ void RenderManager::createtextureSatellites() {
         exit(0);
     }
 
-    std::unique_ptr<Image> IoMap=loadImage("..\\..\\asset\\textures\\Io.jpg");
+    std::unique_ptr<Image> IoMap=loadImage("../../asset/textures/Io.jpg");
 
     GLuint textureIo;
 
@@ -230,7 +230,7 @@ void RenderManager::createtextureSatellites() {
         exit(0);
     }
 
-    std::unique_ptr<Image> IapetusMap=loadImage("..\\..\\asset\\textures\\Iapetus.jpg");
+    std::unique_ptr<Image> IapetusMap=loadImage("../../asset/textures/Iapetus.jpg");
 
     GLuint textureIapetus;
 
@@ -249,7 +249,7 @@ void RenderManager::createtextureSatellites() {
         exit(0);
     }
 
-    std::unique_ptr<Image> OberonMap=loadImage("..\\..\\asset\\textures\\Oberon.jpg");
+    std::unique_ptr<Image> OberonMap=loadImage("../../asset/textures/Oberon.jpg");
 
     GLuint textureOberon;
 
