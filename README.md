@@ -15,7 +15,8 @@ $ git clone https://github.com/Hugu3s/Spaceimac.git
 Make sure that you have SDL.
 
 ## COMPILATION
-
+Compile with cmake.
+**On non-UPEM machines,** please comment line 23 and uncomment line 25.
 
 ## CODING
 
