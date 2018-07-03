@@ -42,12 +42,11 @@ int main(int argc, char** argv) {
     /********* INITIALISATION *********/
     /**********************************/
 
-    //création de moteur de rendu
+    //RenderManager creation
     RenderManager *render = new RenderManager();
     render->initRenderManager();
-    // Equation paramétrique en (r, phi, theta) de la sphère
 
-    //Chargement des shaders
+    //Get and load the shaders
     FilePath applicationPath(argv[0]);
     Program program = loadProgram(
             applicationPath.dirPath() + "shaders/3D.vs.glsl",
@@ -55,45 +54,44 @@ int main(int argc, char** argv) {
     );
     program.use();
 
-    //Obtention de l'id de la variable uniforme
+
+
+    //get ids
     GLint uMVPMatrix = glGetUniformLocation(program.getGLId(), "uMVPMatrix");
     GLint uMVMatrix = glGetUniformLocation(program.getGLId(), "uMVMatrix");
     GLint uNormalMatrix = glGetUniformLocation(program.getGLId(), "uNormalMatrix");
     GLint uTexture = glGetUniformLocation(program.getGLId(), "uTexture");
     GLint uTexture2 = glGetUniformLocation(program.getGLId(), "uTexture2");
 
-    glEnable(GL_DEPTH_TEST); //permet d'activer le test de profondeur du GPU. Sans cet appel de fonction, certains triangles non visible viendraient recouvrir des triangles situés devant.
+    glEnable(GL_DEPTH_TEST);
 
-    glm::mat4 ProjMatrix = glm::perspective(glm::radians(70.0f), 800.0f/600.0f, 0.1f, 100.0f); //param perspective(float fovy, float aspect, float znear, float far)
+    glm::mat4 ProjMatrix = glm::perspective(glm::radians(70.0f), 800.0f/600.0f, 0.1f, 100.0f);
     glm::mat4 MVMatrix = glm::translate(glm::mat4(1), glm::vec3(0, 0, -5));
     glm::mat4 NormalMatrix = glm::transpose(glm::inverse(MVMatrix));
     glm::mat4 Mrotate = glm::rotate(MVMatrix,windowManager.getTime(), glm::vec3(0.0f, 1.0f, 0.0f));
 
 
-    //Création d'un VBO
+    // VBO Creation
     GLuint vbo;
     glGenBuffers(1, &vbo);
 
-    //Bindind du vbo sur la cible
+    //bind vbo on the target
     glBindBuffer(GL_ARRAY_BUFFER, vbo);
-
     TrackballCamera Camera;
-    /* render->createTexturesPlanets();
-     render->createtextureSatellites();*/
 
-    //Puis on envois les données à la CG
+    //send datas to CG
     glBufferData(GL_ARRAY_BUFFER, render->getMySphere()->getVertexCount()*sizeof(ShapeVertex), render->getMySphere()->getDataPointer(), GL_STATIC_DRAW);
-    //Débindind du vbo de la cible pour éviter de le remodifier
+    //Debind VBO
     glBindBuffer(GL_ARRAY_BUFFER, 0);
 
-    //Création du VAO
+    // Creation VAO
     GLuint vao;
     glGenVertexArrays(1, &vao);
 
-    //Binding du vao (un seul à la fois)
+    //VAO Biding
     glBindVertexArray(vao);
 
-    //Dire à OpenGL qu'on utilise le VAO
+    //"Please opengl use vao thank you"
     const GLuint VERTEX_ATTR_POSITION = 0;
     const GLuint VERTEX_ATTR_NORMAL = 1;
     const GLuint VERTEX_ATTR_TEXCOORDS = 2;
@@ -101,20 +99,19 @@ int main(int argc, char** argv) {
     glEnableVertexAttribArray(VERTEX_ATTR_NORMAL);
     glEnableVertexAttribArray(VERTEX_ATTR_TEXCOORDS);
 
-    //Indiquer à OpenGL où trouver les sommets
-    //Bindind du vbo sur la cible
+    //Bindind vbo on target
     glBindBuffer(GL_ARRAY_BUFFER, vbo);
-    //Spécification du format de l'attribut de sommet position
+    //Informe opengl of every shape for every submit
     glVertexAttribPointer(VERTEX_ATTR_POSITION, 3, GL_FLOAT, GL_FALSE, sizeof(ShapeVertex), (const GLvoid*)offsetof(ShapeVertex, position));
     glVertexAttribPointer(VERTEX_ATTR_NORMAL, 3, GL_FLOAT, GL_FALSE, sizeof(ShapeVertex), (const GLvoid*)offsetof(ShapeVertex, normal));
     glVertexAttribPointer(VERTEX_ATTR_TEXCOORDS, 2, GL_FLOAT, GL_FALSE, sizeof(ShapeVertex), (const GLvoid*)offsetof(ShapeVertex, texCoords));
-    //Débindind du vbo de la cible pour éviter de le remodifier
+    //debind vbo
     glBindBuffer(GL_ARRAY_BUFFER, 0);
 
     //Débindind du vao de la cible pour éviter de le remodifier
     glBindVertexArray(0);
 
-    //tableau Positions étoiles
+    //Stars
     int starPosition[2][400];
     for (int c =0; c <=1;c++){
         for(int d = 0; d <= 399; d++){
@@ -122,7 +119,7 @@ int main(int argc, char** argv) {
         }
     }
 
-    //tableau positions étoiles
+    //stars
     int starScale[400];
     for(int e = 0; e <= 399; e++){
         starScale[e] = rand()%5;
@@ -130,14 +127,14 @@ int main(int argc, char** argv) {
 
 
     //TrackballCamera Camera;
+    // we stock here the rotation axis as well the tranlsations axis used by the camera
 
-
-    //Vecteurs contenant les axes de rotation et de translation des astres autour du soleil
     std::vector<glm::vec3> AxesRotation;
     std::vector<glm::vec3> AxesTranslation;
 
 
     std::map<std::string, Planet>::iterator displayedPlanet = system.begin();
+
     /**********************************/
     /******* BOUCLE D'AFFICHAGE *******/
     /**********************************/
@@ -158,22 +155,18 @@ int main(int argc, char** argv) {
             }
         }
 
-        //Ici on récupère les positions de la souris
+        //Get mouse position (used for zoom in and zoom out of the camera)
 
         glm::ivec2 mousePos = windowManager.getMousePosition();
-        if (windowManager.isMouseButtonPressed(SDL_BUTTON_RIGHT)) Camera.moveFront(0.1); //zoom avant
-        else if (windowManager.isMouseButtonPressed(SDL_BUTTON_LEFT)) Camera.moveFront(-0.1); //zoom arrière
+        if (windowManager.isMouseButtonPressed(SDL_BUTTON_RIGHT)) Camera.moveFront(0.1);
+        else if (windowManager.isMouseButtonPressed(SDL_BUTTON_LEFT)) Camera.moveFront(-0.1);
 
-        /*
-        //coordonnées recentrée
-        int relPosX = mousePos.x - windowManager.getWindow_width()/2;
-        int relPosY = mousePos.y - windowManager.getWindow_height()/2 ;
+        /**********************************/
+        /********** CONTROLS **************/
+        /**********************************/
 
-        std::cout << relPosX << std::endl;
-         */
 
-        /***Contrôles***/
-        //rotation de la caméra au clavier
+        //Move camera (here is an error the planet are actually moving around the camera and not the opposite
         if (windowManager.isKeyPressed(SDLK_w)) {
             Camera.rotateUp();
         }
@@ -187,7 +180,7 @@ int main(int argc, char** argv) {
             Camera.rotateLeft();
         }
 
-        //gestion vitesse
+        //Slow down time
         if (windowManager.isKeyPressed(SDLK_f)) {
             app->getTime()->setValue(app->getTime()->getValue() + 500);
             if (app->getTime()->getSpeed() == 1)
@@ -198,16 +191,22 @@ int main(int argc, char** argv) {
             app->getTime()->setSpeed(1);
         }
 
-        //afficher soleil
+        //Switch Camera (center on Earth)
         if (windowManager.isKeyPressed(SDLK_c)) {
             displaySun =!displaySun;
         }
 
+        //Switch the center of the view. Each planet is centered and in front
         if (windowManager.isKeyPressed(SDLK_v)) {
             if(displayedPlanet->second.getName() == "Venus"){
+                app->getTime()->setSpeed(-100);
                 displayedPlanet = system.begin();
             }else displayedPlanet++;
             std::cout << displayedPlanet->second.getName() << std::endl;
+        }
+
+        if (windowManager.isKeyPressed(SDLK_ESCAPE)){
+            exit (0);
         }
 
         // Nettoyage de la fenêtre
@@ -230,8 +229,6 @@ int main(int argc, char** argv) {
             glUniformMatrix4fv(uMVMatrix, 1, GL_FALSE, glm::value_ptr(MVMatrix));
             glUniformMatrix4fv(uNormalMatrix, 1, GL_FALSE, glm::value_ptr(NormalMatrix));
 
-            //glActiveTexture(GL_TEXTURE1);
-            // glBindTexture(GL_TEXTURE_2D, textureCloud); // la texture cloudTexture est bindée sur l'unité GL_TEXTURE1
 
             glDrawArrays(GL_TRIANGLES, 0, render->getMySphere()->getVertexCount());
 
@@ -244,24 +241,6 @@ int main(int argc, char** argv) {
                 //for (std::map<std::string,Satellite>::iterator it2 = sat.begin(); it2 != sat.end(); it2++) {
                 Satellite s = sat.begin()->second;
                 std::cout << s.getName() << std::endl;
-                /*
-                glActiveTexture(GL_TEXTURE0);
-                glBindTexture(GL_TEXTURE_2D, render->getTextureSatellites("Moon"));
-                glm::mat4  newMVMatrix = glm::rotate(newMVMatrix,windowManager.getTime(), glm::vec3(0, 10, 0)); // Translation * Rotation
-                newMVMatrix = glm::translate(glm::mat4(1), glm::vec3(0, -1, -20)); // Translation
-                newMVMatrix = glm::rotate(newMVMatrix, (windowManager.getTime() * 50 + app->getTime()->getValue())/1000, glm::vec3(0.0, 1, 1)); // Translation * Rotation
-                newMVMatrix = glm::translate(newMVMatrix, glm::vec3(0.0,satnbr s.getSm_axis()/50000, 0.0)); // Translation * Rotation * Translation
-
-                newMVMatrix = glm::scale(newMVMatrix, glm::vec3(s.getDiametre()*0.0001 ,s.getDiametre()*0.0001,s.getDiametre()*0.0001)); // Translation * Rotation * Translation * Scale
-
-
-                glUniformMatrix4fv(uMVPMatrix, 1, GL_FALSE, glm::value_ptr(ProjMatrix * newMVMatrix));
-                glUniformMatrix4fv(uMVMatrix, 1, GL_FALSE, glm::value_ptr(MVMatrix));
-                glUniformMatrix4fv(uNormalMatrix, 1, GL_FALSE, glm::value_ptr(NormalMatrix));
-
-                glDrawArrays(GL_TRIANGLES, 0, render->getMySphere()->getVertexCount());
-            satnbr++;
-                */
                 // }
             }
         } else {
@@ -348,8 +327,6 @@ int main(int argc, char** argv) {
         //uMVPMatrix, UMVMatrix, ProjMatrix
 
         // };
-
-        //displayPlanet(app->getPlanet("Earth"));
 
         glBindVertexArray(0);
         glActiveTexture(GL_TEXTURE0);

@@ -1,1 +1,1 @@
--IC:/MinGW/include/SDL -ID:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include -ID:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include 
+-IC:/MinGW/include/SDL -I"D:/SPACEIMAC Master/Spaceimac/glimac/include" -I"D:/SPACEIMAC Master/Spaceimac/third-party/include" 

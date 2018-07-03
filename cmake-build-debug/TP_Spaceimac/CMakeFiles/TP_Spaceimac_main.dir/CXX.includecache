@@ -10,6 +10,12 @@
 glm.hpp
 ../glimac/include/glimac/glm.hpp
 
+../glimac/include/glimac/Cube.hpp
+vector
+-
+glimac/common.hpp
+../glimac/include/glimac/glimac/common.hpp
+
 ../glimac/include/glimac/FilePath.hpp
 string
 -
@@ -91,6 +97,12 @@ GL/glew.h
 -
 glm.hpp
 ../glimac/include/glimac/glm.hpp
+math.h
+-
+glimac/Program.hpp
+-
+glimac/FilePath.hpp
+-
 
 ../glimac/include/glimac/glm.hpp
 glm/glm.hpp
@@ -141,6 +153,8 @@ GameManager.hpp
 ../glimac/include/project/GameManager.hpp
 glimac/SDLWindowManager.hpp
 -
+Skybox.hpp
+../glimac/include/project/Skybox.hpp
 GL/glew.h
 -
 iostream
@@ -163,6 +177,8 @@ glimac/Geometry.hpp
 -
 cstddef
 -
+glimac/Cube.hpp
+-
 glimac/FreeflyCamera.hpp
 -
 
@@ -173,6 +189,16 @@ Astre.hpp
 ../glimac/include/project/Astre.hpp
 map
 -
+
+../glimac/include/project/Skybox.hpp
+iostream
+-
+GL/glew.h
+-
+../glimac/glm.hpp
+../glimac/include/glimac/glm.hpp
+../glimac/Image.hpp
+../glimac/include/glimac/Image.hpp
 
 ../glimac/include/project/Sun.hpp
 iostream
@@ -930,7 +956,7 @@ detail/type_vec4.hpp
 detail/func_vector_relational.hpp
 ../third-party/include/glm/detail/func_vector_relational.hpp
 
-D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/main.cpp
+D:/SPACEIMAC Master/Spaceimac/TP_Spaceimac/main.cpp
 glimac/SDLWindowManager.hpp
 -
 GL/glew.h
@@ -956,7 +982,7 @@ cstddef
 vector
 -
 project/GameManager.hpp
-D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/project/GameManager.hpp
+D:/SPACEIMAC Master/Spaceimac/TP_Spaceimac/project/GameManager.hpp
 project/RenderManager.hpp
-D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/project/RenderManager.hpp
+D:/SPACEIMAC Master/Spaceimac/TP_Spaceimac/project/RenderManager.hpp
 

@@ -56,7 +56,7 @@ void GameManager::initier_system() {
 
 void GameManager::initier_Planet() {
 
-    //every distance is divided by 1000 to make it fit the window (and because 1000 is a easy to work with number for division
+    //every distance is SCALED DOWN by 1000 to make it fit the window (and because 1000 is a easy to work with number for division
     create_Planet("Mercury",4879,59,"tellurique",69800,46000,88,7);
     create_Planet("Venus",12104,243,"tellurique",108900,107500,225,3.4);
     create_Planet("Earth",12756,0.99,"tellurique",152100,147100,365,0);

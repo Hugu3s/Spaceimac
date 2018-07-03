@@ -1,4 +1,4 @@
-# Install script for directory: D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac
+# Install script for directory: D:/SPACEIMAC Master/Spaceimac/TP_Spaceimac
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

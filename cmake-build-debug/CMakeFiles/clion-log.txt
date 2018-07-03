@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2017.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\marco\Desktop\IMAC2\OpenGl\SpaceIMAC(master)
+"C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\SPACEIMAC Master\Spaceimac"
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug
+-- Build files have been written to: D:/SPACEIMAC Master/Spaceimac/cmake-build-debug
