@@ -174,13 +174,13 @@ int main(int argc, char** argv) {
 
         /***Contrôles***/
         //rotation de la caméra au clavier
-        if (windowManager.isKeyPressed(SDLK_z)) {
+        if (windowManager.isKeyPressed(SDLK_w)) {
             Camera.rotateUp();
         }
         if (windowManager.isKeyPressed(SDLK_s)) {
             Camera.rotateDown();
         }
-        if (windowManager.isKeyPressed(SDLK_q)) {
+        if (windowManager.isKeyPressed(SDLK_a)) {
             Camera.rotateRight();
         }
         if (windowManager.isKeyPressed(SDLK_d)) {
