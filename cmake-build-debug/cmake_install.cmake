@@ -30,9 +30,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac/cmake_install.cmake")
-  include("D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP1/cmake_install.cmake")
-  include("D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP2/cmake_install.cmake")
-  include("D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP3/cmake_install.cmake")
   include("D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac/cmake_install.cmake")
 
 endif()
