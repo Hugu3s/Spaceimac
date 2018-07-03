@@ -225,6 +225,12 @@ OPENGL_gl_LIBRARY:STRING=opengl32
 //GLU library for win32
 OPENGL_glu_LIBRARY:STRING=glu32
 
+//Value Computed by CMake
+Project_BINARY_DIR:STATIC=D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug
+
+//Value Computed by CMake
+Project_SOURCE_DIR:STATIC=D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)
+
 //Path to a library.
 SDLMAIN_LIBRARY:FILEPATH=C:/MinGW/lib/SDLmain.lib
 
@@ -234,8 +240,32 @@ SDL_INCLUDE_DIR:PATH=C:/MinGW/include/SDL
 //Where the SDL Library can be found
 SDL_LIBRARY:STRING=mingw32;-mwindows;C:/MinGW/lib/SDLmain.lib;C:/MinGW/lib/SDL.lib
 
+//Value Computed by CMake
+TP_Spaceimac_BINARY_DIR:STATIC=D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug
+
+//Value Computed by CMake
+TP_Spaceimac_SOURCE_DIR:STATIC=D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)
+
 //Dependencies for target
 glimac_LIB_DEPENDS:STATIC=
+
+//Value Computed by CMake
+pacman_BINARY_DIR:STATIC=D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug
+
+//Value Computed by CMake
+pacman_SOURCE_DIR:STATIC=D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)
+
+//Value Computed by CMake
+pacmanpacman_BINARY_DIR:STATIC=D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug
+
+//Value Computed by CMake
+pacmanpacman_SOURCE_DIR:STATIC=D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)
+
+//Value Computed by CMake
+spaceimac_BINARY_DIR:STATIC=D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug
+
+//Value Computed by CMake
+spaceimac_SOURCE_DIR:STATIC=D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)
 
 
 ########################

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="spaceimac"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CMake\;CMake Files\glimac\;CMake Files\TP_Spaceimac\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glimac">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac/libglimac.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 glimac"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glimac/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac/libglimac.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 glimac/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP_Spaceimac_main">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac/TP_Spaceimac_main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac/Makefile&quot;  VERBOSE=1 TP_Spaceimac_main"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP_Spaceimac_main/fast">
+				<Option output="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac/TP_Spaceimac_main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include/SDL"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include"/>
+					<Add directory="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac/Makefile&quot;  VERBOSE=1 TP_Spaceimac_main/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/cmake-build-debug/TP_Spaceimac/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/main.cpp">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/shaders/3D.vs.glsl">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/shaders/3DFreeFly.vs.glsl">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/shaders/directionallight.fs.glsl">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/shaders/fshader.glsl">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/shaders/multiTex3D.fs.glsl">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/shaders/multiTex3DFreeFly.fs.glsl">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/shaders/normals.fs.glsl">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/shaders/tex3D.fs.glsl">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/shaders/tex3D2.fs.glsl">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/shaders/tex3DFreeFly.fs.glsl">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/shaders/vertexsharder.glsl">
+			<Option target="TP_Spaceimac_main"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/BBox.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/Cone.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/FilePath.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/FreeflyCamera.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/Geometry.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/Image.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/Plane.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/Program.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/SDLWindowManager.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/Shader.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/Sphere.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/TrackballCamera.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/common.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/glimac/glm.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/project/Astre.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/project/GameManager.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/project/Gaseous.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/project/Planet.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/project/RenderManager.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/project/Satellite.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/project/Sun.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/project/Telluric.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/project/Texte.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/project/Texture.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/include/project/Time.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/Cone.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/FreeflyCamera.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/Geometry.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/Image.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/Plane.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/Program.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/SDLWindowManager.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/SDLWindowManager.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/Shader.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/Sphere.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/TrackballCamera.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/project/Astre.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/project/GameManager.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/project/Gaseous.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/project/Planet.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/project/RenderManager.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/project/Satellite.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/project/Sun.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/project/Telluric.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/project/Texte.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/project/Texture.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/project/Time.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/tiny_obj_loader.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/src/tiny_obj_loader.h">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/CMake/FindGLEW.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/glimac/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\glimac\"/>
+		</Unit>
+		<Unit filename="D:/marco/Desktop/IMAC2/OpenGl/SpaceIMAC(master)/TP_Spaceimac/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\TP_Spaceimac\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
